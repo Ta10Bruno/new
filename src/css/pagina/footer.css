@@ -1,0 +1,34 @@
+.footer-bg{
+    background-color: #000;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.footer-img{
+    display: flex;
+    gap: 5px;
+}
+
+.footer-info{
+    color: #fff;
+
+}
+
+@media (max-width:1000px){
+    
+    .footer{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        gap: 15px;
+    }
+    
+    
+}

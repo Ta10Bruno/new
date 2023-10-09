@@ -1,0 +1,51 @@
+.portfolio-bg{
+    background-color: black;
+    padding: 40px;
+    padding-bottom: 130px;
+    margin-bottom: 50px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    gap :40px;
+    text-align: center;
+}
+
+.portfolio h2{
+    color: #FFF;
+}
+
+.portfolio .port{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    gap:20px;
+}
+
+.portfolio .swiper{
+    height: 400px;
+    width: 350px;
+}
+
+.swiper-mobile{
+    display: none;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width:1200px){
+
+.portfolio .swiper{
+    display: none;
+}
+
+.swiper-mobile{
+    display: flex;
+}
+
+   
+}

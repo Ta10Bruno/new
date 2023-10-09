@@ -1,0 +1,50 @@
+.depoimentos{
+    text-align: center;
+}
+
+.depoimento{
+    margin-bottom: 100px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.depoimentos h2{
+    margin-bottom: 100px;
+}
+.depoimento-conteudo{
+    background: radial-gradient(circle at bottom  left ,#D8D8D8 0%, #FCFCFC 100% ) ;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 20px 20px;
+}
+.depoimento-conteudo img{
+    margin: 0 auto;
+}
+
+.my-slider{
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.tns-outer{
+    display: flex;
+    flex-direction: row;
+}
+
+.tns-outer [aria-controls]{
+    color: aqua;
+    background-color: aquamarine;
+}
+
+@media (max-width:400px){
+    .depoimento-conteudo{
+        background: radial-gradient(circle at bottom  left ,#D8D8D8 0%, #FCFCFC 100% ) ;
+        border-radius: 10px;
+        font-size: 1.0rem;
+        padding: 10px 10px;
+    }
+
+    
+    
+}

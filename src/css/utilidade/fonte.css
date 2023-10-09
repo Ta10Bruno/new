@@ -1,0 +1,51 @@
+.texto-principal{
+    text-transform: uppercase;
+    font: 100 2.5rem "Roboto", sans-serif;
+}
+.texto-principal-bold{
+    font: 500 2.5rem "Roboto", sans-serif;
+}
+
+.titulo{
+    font: 100 1.8rem "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.texto-semi{
+    font: 500 1.8rem "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.texto-bold{
+    font: 700 1.8rem "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.titulo-2{
+    font: 100 1.25rem "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.texto{
+    font: 400 1.8rem "Roboto", sans-serif;
+}
+
+.texto-2{
+    font: 100 1.25rem "Roboto", sans-serif;
+}
+
+@media (max-width:400px){
+    .texto{
+        font: 400 1.2rem "Roboto", sans-serif;
+    }
+    
+    .texto-2{
+        font: 100 1rem "Roboto", sans-serif;
+    }
+    
+    
+    
+    
+}

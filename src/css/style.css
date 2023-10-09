@@ -1,0 +1,13 @@
+/*Utilidades*/
+@import './utilidade/global.css';
+@import './utilidade/componentes.css';
+
+
+/*Pagina*/
+@import './pagina/header.css';
+@import './pagina/introducao.css';
+@import './pagina/beneficio.css';
+@import './pagina/portfolio.css';
+@import './pagina/depoimento.css';
+@import './pagina/footer.css';
+@import './utilidade/fonte.css';
